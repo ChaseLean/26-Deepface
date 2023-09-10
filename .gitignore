@@ -1,0 +1,12 @@
+# Ignore everything inside the following directories
+datasets/*
+outputs/*
+extracted/*
+# But do not ignore the directories themselves
+!datasets/
+!outputs/
+!extracted/
+# Do not ignore the following datasets
+!datasets/sample_dataset/
+!datasets/lfw10/
+!datasets/lfw50/
