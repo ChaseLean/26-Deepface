@@ -117,6 +117,10 @@ def recognize_faces(
         silent=False
     ):
 
+    if not os.path.exists(output_path):
+        # Create a new directory because it does not exist
+        os.makedirs(output_path)
+
     representations, extended_models = recognition_backend.init(
         db_path = db_path,
         model_name= model_name,
