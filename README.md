@@ -5,13 +5,12 @@ Face recognition is considered a mature technology and modern face recognition s
 They can be implemented using many Python libraries such as OpenCV and Deepface. However, these libraries do not provide a straightforward way to:
 
 <ul>
-<li>Process a directory of images at once</li>
-<li>Annotate the recognized faces in a presentable way</li>
-<li>Evaluate the accuracy of the models on data</li>
+<li>Allow the user to easily create their own datasets</li>
+<li>Extract, process and recognize faces from a directory at once</li>
+<li>Evaluate and compare the accuracy of multiple face recognition models</li>
 </ul>
 
-
-This project aims to make use of state-of-the-art face detection/recognition models
+This project aims to provide a way to perform these tasks quickly and efficiently while leveraging the power of state-of-the-art models like RetinaFace and Facenet512.
 
 <p align="center">
     <img src="assets/output_sample.jpg">
