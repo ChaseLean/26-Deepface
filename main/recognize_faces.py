@@ -221,6 +221,8 @@ all_matches = recognize_faces(
     threshold=1
 )
 
+print(all_matches)
+
 # stream_video(
 #     threshold=1, 
 #     db_path="./datasets/sample_dataset", 
