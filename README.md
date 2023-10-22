@@ -1,4 +1,4 @@
-# Face Recognition With Deepface and FaceNet512
+# Face Recognition With Deepface
 
 Face recognition is considered a mature technology and modern face recognition systems are highly accurate.
 
@@ -10,7 +10,7 @@ They can be implemented using many Python libraries such as OpenCV and Deepface.
 <li>Evaluate and compare the accuracy of multiple face recognition models</li>
 </ul>
 
-This project aims to provide a way to perform these tasks quickly and efficiently while leveraging the power of state-of-the-art models like RetinaFace and Facenet512.
+This project aims to build upon Deepface to provide a way to perform these tasks quickly and efficiently while leveraging the power of state-of-the-art face recognition models.
 
 <p align="center">
     <img src="assets/output_sample.jpg">
